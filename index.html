@@ -5,24 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flappy Bird Clone</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="game-container">
-        <!-- Canvas utama game -->
         <canvas id="gameCanvas"></canvas>
         
-        <!-- UI Overlay -->
         <div class="ui-overlay">
             <div class="score-display">
                 <div class="current-score">0</div>
                 <div class="high-score">HIGH: 0</div>
             </div>
-            
             <div class="sound-control">
-                <button id="soundToggle" class="sound-btn">
-                    🔊
-                </button>
+                <button id="soundToggle" class="sound-btn">🔊</button>
             </div>
         </div>
 
@@ -37,7 +32,7 @@
 
         <!-- Game Over Screen -->
         <div id="gameOverScreen" class="screen">
-            <h2>GAME OVER</h2>
+            <h2>💥 GAME OVER</h2>
             <div class="final-scores">
                 <div>Score: <span id="finalScore">0</span></div>
                 <div>High Score: <span id="finalHighScore">0</span></div>
